@@ -1,0 +1,379 @@
+.html{
+    box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flexbox {
+    display: flex;
+}
+
+:root{
+    --main-text-color: #757575;
+    --title-text-color:  #212121;
+}
+
+/*--STUDIO--*/
+
+/*--HEADER--*/
+
+.page-header {
+    padding: 26px 0;
+}
+
+.page-header .flexbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation {
+  display: inline-block;
+  align-items: center;
+  margin-right: auto;
+  justify-content: space-between;
+
+}
+
+.flexbox{
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 81px;
+}
+
+
+.nav {
+    color: var(--title-text-color)
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+.nav:last-child{
+    margin-right: 84px;
+}
+
+.nav:focus,
+.nav:hover {
+    color: #2196F3;
+}
+
+.kontakt {
+    color: var(--main-text-color)
+}
+
+.kontakt-mail {
+    margin-top: 10px;
+}
+
+/*--Hero--*/
+
+.hero-title {
+    color: #ffffff;
+    background-color: blue;
+}
+   
+.hero-title{
+    text-align: center;
+    padding-top: 118px;
+    padding-right: 204px;
+    padding-bottom: 198px;
+    padding-left: 204px;
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+.hero-title{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .button-hero{
+     display: flex;
+     align-items: center;
+     text-align: center;
+}
+
+.button-hero {
+    color:#ffffff ;
+    background-color:  #2196F3;
+    padding: 10px 32px;
+    margin-top: 40px;
+}
+
+/*--ADVANTAGES--*/
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 30px) / 2);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages-title {
+     color: var(--title-text-color);
+}
+
+.advantages-text {
+    color: var(--main-text-color);
+}
+
+/*--COMMAND--*/
+
+.command{
+    display: flex;
+    align-items: center;
+}
+
+.command-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.command-title {
+    color: var(--title-text-color);
+    text-align: center;
+    width: 205px;
+    margin-bottom: 30px;
+}
+
+.command-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.command-item{
+    width: calc(( 100% - 30px ) / 2 );
+    margin-right: 30px;
+}
+
+.command-item:nth-child(2n){
+    margin-right: 0;
+}
+.designer{
+    width: 354px;
+    height: 422px;
+    left: 15px;
+    top: 1230px;
+}
+
+.designer {
+   display: inline-block;
+   justify-content: center;
+}
+
+.developer {
+    width: 354px;
+    height: 422px;
+    left: 399px;
+    top: 1230px;
+}
+
+.developer{
+   display: inline-block;
+   justify-content: center; 
+}
+
+.marketing{
+    width: 354px;
+    height: 422px;
+    left: 15px;
+    top: 1682px;
+}
+
+.marketing{
+   display: inline-block;
+   justify-content: center;
+}
+
+.ui{
+    width: 354px;
+    height: 422px;
+    left: 399px;
+    top: 1682px;
+}
+
+.ui{
+   display: inline-block; 
+   justify-content: center;
+
+}
+.command-link {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.command-name {
+    color: var(--title-text-color);
+}
+
+.command-profession {
+    color: var(--main-text-color);
+}
+
+.command-link:hover,
+.command-link:active {
+    color:#2196F3 ;
+}
+
+/*--CLIENTS--*/
+
+
+.clients-title {
+    color: var(--title-text-color);
+    width: 314px;
+    height: 33px;
+}
+
+.clients-title{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 227px;
+    padding-left: 227px;
+}
+
+.clients-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.clients-item:nth-child(3n){
+    margin-right: 0;
+}
+
+/*--FOOTER--*/
+
+ .footer{
+     display: flex;
+}
+
+ .footer{
+     width: calc((100% - 30px ) / 2 );
+ }
+
+.nav-footer {
+    background-color: #2F303A;
+}
+
+.nav-footer-adress {
+    color: #ffffff;
+}
+
+.nav-footer-kontakt {
+    color: var(--main-text-color);
+}
+
+.nav-footer-kontakt:focus,
+.nav-footer-kontakt:active {
+    color:#2196F3;
+}
+
+.nav-footer-title {
+    color: var(--title-text-color);
+}
+
+.nav-footer-link {
+    color: #ffffff;
+}
+
+.nav-footer-link:focus,
+.nav-footer-link:active {
+    color: #2196F3;
+}
+
+/*--PORTFOLIO--*/
+
+/*--PAGE--*/
+
+.page{
+    display: flex;
+}
+
+.page{
+    margin-right: 30px;
+}
+
+.page:not(:last-child){
+    margin-right: 0;
+}
+
+.page-menu-title{
+    display: inline-block;
+    align-items: center;
+}
+
+.page-menu-title{
+   margin-right: 30px; 
+}
+
+.page-menu-title:not(:last-child){
+    margin-right: 0;
+}
+
+.page-menu-title {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.page-menu-title:focus,
+.page-menu-title:active {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+  
+/*--PORTFOLIO--*/
+
+.portfolio-hero {
+    color: #FFFFFF;
+}
+
+.portfolio-title {
+    color:var(--title-text-color) ;
+}
+
+.portfolio-services {
+    color: var(--main-text-color);
+}
+
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item{
+    margin-right: 30px;
+}
+
+.portfolio-item:nth-child(2n){
+    margin-right: 0;
+}
